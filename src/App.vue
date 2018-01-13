@@ -1,6 +1,9 @@
 <template>
   <div id="app">
-    <router-view/>
+    <v-app>
+      <router-view/>
+      <v-footer dark>© Wahib-2018</v-footer>
+    </v-app>
   </div>
 </template>
 
@@ -19,7 +22,8 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #e7ce9f;
+  background-color: black;
   /* margin-top: 60px; */
 }
 </style>
