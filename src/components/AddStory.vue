@@ -66,6 +66,12 @@ export default {
         assignedTo: this.assignedTo,
         status: 0 // status 0-4 => backlog - done
       })
+      this.$store.state.addNewStoryDialog = false
+      this.valid = false
+      this.title = ''
+      this.description = ''
+      this.point = ''
+      this.assignedTo = ''
     }
   }
 }
