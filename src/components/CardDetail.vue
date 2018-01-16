@@ -73,7 +73,6 @@ export default {
       this.$store.state.cardDetailDialog = false
     },
     pullNext () {
-      console.log('pull', this.card['.key'])
       this.$fbasedb.ref(`kanban/story/${this.card['.key']}`).set({
         title: this.card.title,
         description: this.card.description,
@@ -84,8 +83,6 @@ export default {
       this.$store.state.currentCardDetail.status ++
     },
     setback () {
-      console.log('back')
-      console.log('pull', this.card['.key'])
       this.$fbasedb.ref(`kanban/story/${this.card['.key']}`).set({
         title: this.card.title,
         description: this.card.description,

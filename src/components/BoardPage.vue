@@ -26,7 +26,6 @@ export default {
   },
   methods: {
     addNewStory () {
-      console.log('add new story')
       this.$store.state.addNewStoryDialog = true
     }
   }

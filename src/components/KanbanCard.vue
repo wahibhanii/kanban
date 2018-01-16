@@ -30,7 +30,6 @@ export default {
   props: ['card'],
   methods: {
     pullNext () {
-      console.log('pull', this.card['.key'])
       this.$fbasedb.ref(`kanban/story/${this.card['.key']}`).set({
         title: this.card.title,
         description: this.card.description,
@@ -40,8 +39,6 @@ export default {
       })
     },
     setback () {
-      console.log('back')
-      console.log('pull', this.card['.key'])
       this.$fbasedb.ref(`kanban/story/${this.card['.key']}`).set({
         title: this.card.title,
         description: this.card.description,
