@@ -1,7 +1,25 @@
-# kanban
+# [Kanban](http:/kanban.wahibhanii.xyz)
 
-> A Vue.js project
+A Serverless Realtime kanban board  
+[kanban.wahibhanii.xyz](http:/kanban.wahibhanii.xyz)
+____________________
+## App Usage 
 
+### Kanban Board
+  - A regular kanban board
+  - Four column / sections:
+    - back-log
+    - to-do
+    - in progress
+    - done
+## Feature
+  - Add new kanban card / story / task
+  - Task is arranged vertically by point, higher task point gets to the top
+  - Effortless pull or set back task item
+  - Detailed task info
+  - Unique design
+  - Intuitive navigation
+----------
 ## Build Setup
 
 ``` bash
